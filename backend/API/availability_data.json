@@ -1,0 +1,3780 @@
+{
+	"availability_dict": {
+		"('aeronet_1.5_V3',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"201806",
+				"202212",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201806',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('oper-117-0000-3',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('AOD500',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('AOD675',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('AOD870',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201807',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201808',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201809',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202210',)": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('0078-21-0000-3',)": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('hylz-21-0000-3',)": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('oper-21-0000-3',)": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr",
+				"aeronet_1.5_V3"
+			],
+			"Months": [
+				"201910",
+				"202301",
+				"202210",
+				"201911",
+				"201908",
+				"202209",
+				"201909",
+				"202207",
+				"202208",
+				"202211",
+				"202212"
+			],
+			"Parameters": [
+				"CO",
+				"NO",
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10"
+			]
+		},
+		"('operfc-21-0000-3',)": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr",
+				"aeronet_1.5_V3"
+			],
+			"Months": [
+				"201910",
+				"202301",
+				"202210",
+				"201911",
+				"201908",
+				"202209",
+				"201909",
+				"202207",
+				"202208",
+				"202211",
+				"202212"
+			],
+			"Parameters": [
+				"CO",
+				"NO",
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10"
+			]
+		},
+		"('202211',)": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3", "airbase_meteofrance"]
+		},
+		"('202212',)": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3", "airbase_meteofrance"]
+		},
+		"('202301',)": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3", "airbase_meteofrance"]
+		},
+		"('airbase_meteofrance',)": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('CO',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": [
+				"airbase_meteofrance",
+				"airnow",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('NO2',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance", "china_aq_globvalsvr"],
+			"Months": ["202207", "202208", "202211", "202212", "202301", "202209"]
+		},
+		"('O3',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": [
+				"airbase_meteofrance",
+				"airnow",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('PM10',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": [
+				"airbase_meteofrance",
+				"airnow",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('PM2.5',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": [
+				"airbase_meteofrance",
+				"airnow",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('SO2',)": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": [
+				"airbase_meteofrance",
+				"airnow",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airnow',)": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908',)": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('NO',)": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201909',)": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910',)": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911',)": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr',)": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207',)": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208',)": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209',)": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('aeronet_1.5_V3', '201806')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201806', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('201806', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('aeronet_1.5_V3', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201806', 'AOD500')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD500', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('aeronet_1.5_V3', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201806', 'AOD675')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD675', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('aeronet_1.5_V3', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"oper-117-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": [
+				"201807",
+				"202210",
+				"202211",
+				"202212",
+				"201806",
+				"202301",
+				"201809",
+				"201808"
+			]
+		},
+		"('201806', 'AOD870')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD870', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["201807", "201806", "201809", "201808"]
+		},
+		"('aeronet_1.5_V3', '201807')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201807', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201807', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201807', 'AOD500')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201807', 'AOD675')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201807', 'AOD870')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201808')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201808', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201808', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201808', 'AOD500')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201808', 'AOD675')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201808', 'AOD870')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201809')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201809', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201809', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201809', 'AOD500')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201809', 'AOD675')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('201809', 'AOD870')": {
+			"Models": ["oper-117-0000-3"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202210', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('202210', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('aeronet_1.5_V3', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('202210', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('aeronet_1.5_V3', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('202210', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('aeronet_1.5_V3', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Months": ["202211", "202210", "202212", "202301"]
+		},
+		"('202210', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD1640', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('202210', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD500', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD500', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD500', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD500', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('202210', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD675', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD675', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD675', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD675', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('202210', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('AOD870', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD870', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD870', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('AOD870', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"],
+			"Months": ["202210", "202211", "202212", "202301"]
+		},
+		"('aeronet_1.5_V3', '202211')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202211', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', '0078-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202211', 'hylz-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202211', 'oper-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202211', 'operfc-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', '0078-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202212', 'hylz-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202212', 'oper-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202212', 'operfc-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD870", "AOD675"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', '0078-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202301', 'hylz-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202301', 'oper-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202301', 'operfc-21-0000-3')": {
+			"Parameters": [
+				"NO2",
+				"O3",
+				"AOD500",
+				"AOD1640",
+				"PM2.5",
+				"SO2",
+				"AOD870",
+				"AOD675",
+				"PM10",
+				"CO"
+			],
+			"Observation Sources": ["airbase_meteofrance", "aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('airbase_meteofrance', '202211')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '0078-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('CO', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('airbase_meteofrance', 'hylz-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('CO', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('airbase_meteofrance', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('CO', 'oper-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('CO', 'operfc-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('NO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('NO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance", "china_aq_globvalsvr"],
+			"Months": ["202207", "202208", "202211", "202212", "202301", "202209"]
+		},
+		"('NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance", "china_aq_globvalsvr"],
+			"Months": ["202207", "202208", "202211", "202212", "202301", "202209"]
+		},
+		"('airbase_meteofrance', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('O3', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('O3', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('O3', 'oper-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('O3', 'operfc-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('PM10', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('PM10', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('PM10', 'oper-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('PM2.5', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('PM2.5', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('SO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('SO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"],
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('SO2', 'oper-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": [
+				"airnow",
+				"airbase_meteofrance",
+				"china_aq_globvalsvr"
+			],
+			"Months": [
+				"202207",
+				"202208",
+				"202211",
+				"202212",
+				"202301",
+				"201910",
+				"201908",
+				"202209",
+				"201909",
+				"201911"
+			]
+		},
+		"('airbase_meteofrance', '202212')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"oper-21-0000-3",
+				"operfc-21-0000-3"
+			],
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airnow', '201908')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'CO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'NO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'NO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('NO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('NO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('airnow', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'O3')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'PM10')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'PM2.5')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["201910", "201911", "201908", "201909"]
+		},
+		"('201908', 'SO2')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201909')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'CO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'NO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'O3')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'PM10')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'PM2.5')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'SO2')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201910')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'CO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'NO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'O3')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'PM10')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'PM2.5')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'SO2')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201911')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'CO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'NO')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'O3')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'PM10')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'PM2.5')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'SO2')": {
+			"Observation Sources": ["airnow"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', '202207')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'CO')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'NO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'NO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'O3')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'PM10')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'PM2.5')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"],
+			"Months": ["202207", "202208", "202209"]
+		},
+		"('202207', 'SO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'CO')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'NO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'O3')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'PM10')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'PM2.5')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'SO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'CO')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'NO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'O3')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'PM10')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'PM2.5')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'SO2')": {
+			"Models": ["oper-21-0000-3", "operfc-21-0000-3"],
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('aeronet_1.5_V3', '201806', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', '201806', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640', 'oper-117-0000-3')": {
+			"Months": ["201807", "201809", "201808", "201806"]
+		},
+		"('201806', 'AOD1640', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201806', 'AOD500')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', 'AOD500', 'oper-117-0000-3')": {
+			"Months": ["201807", "201809", "201808", "201806"]
+		},
+		"('201806', 'AOD500', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201806', 'AOD675')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', 'AOD675', 'oper-117-0000-3')": {
+			"Months": ["201807", "201809", "201808", "201806"]
+		},
+		"('201806', 'AOD675', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201806', 'AOD870')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', 'AOD870', 'oper-117-0000-3')": {
+			"Months": ["201807", "201809", "201808", "201806"]
+		},
+		"('201806', 'AOD870', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201807', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', '201807', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('201807', 'AOD1640', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201807', 'AOD500')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201807', 'AOD500', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201807', 'AOD675')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201807', 'AOD675', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201807', 'AOD870')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201807', 'AOD870', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201808', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', '201808', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('201808', 'AOD1640', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201808', 'AOD500')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201808', 'AOD500', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201808', 'AOD675')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201808', 'AOD675', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201808', 'AOD870')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201808', 'AOD870', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201809', 'AOD1640')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('aeronet_1.5_V3', '201809', 'oper-117-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('201809', 'AOD1640', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201809', 'AOD500')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201809', 'AOD500', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201809', 'AOD675')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201809', 'AOD675', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '201809', 'AOD870')": {
+			"Models": ["oper-117-0000-3"]
+		},
+		"('201809', 'AOD870', 'oper-117-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', '202210', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640', '0078-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD1640', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640', 'hylz-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD1640', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640', 'oper-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD1640', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('aeronet_1.5_V3', 'AOD1640', 'operfc-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD1640', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', 'AOD500', '0078-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD500', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD500', 'hylz-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD500', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD500', 'oper-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD500', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD500', 'operfc-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD500', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', 'AOD675', '0078-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD675', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD675', 'hylz-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD675', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD675', 'oper-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD675', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD675', 'operfc-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD675', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202210', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', 'AOD870', '0078-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD870', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD870', 'hylz-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD870', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD870', 'oper-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD870', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', 'AOD870', 'operfc-21-0000-3')": {
+			"Months": ["202301", "202211", "202212", "202210"]
+		},
+		"('202210', 'AOD870', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', '202211', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202211', 'AOD1640', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202211', 'AOD1640', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202211', 'AOD1640', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202211', 'AOD1640', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202211', 'AOD500', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD500', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD500', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD500', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202211', 'AOD675', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD675', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD675', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD675', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202211', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202211', 'AOD870', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD870', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD870', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202211', 'AOD870', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', '202212', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202212', 'AOD1640', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202212', 'AOD1640', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202212', 'AOD1640', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202212', 'AOD1640', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'AOD500', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD500', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD500', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD500', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'AOD675', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD675', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD675', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD675', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202212', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'AOD870', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD870', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD870', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202212', 'AOD870', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'AOD1640')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('aeronet_1.5_V3', '202301', '0078-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202301', 'AOD1640', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'hylz-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202301', 'AOD1640', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'oper-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202301', 'AOD1640', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'operfc-21-0000-3')": {
+			"Parameters": ["AOD500", "AOD1640", "AOD675", "AOD870"]
+		},
+		"('202301', 'AOD1640', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'AOD500')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'AOD500', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD500', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD500', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD500', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'AOD675')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'AOD675', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD675', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD675', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD675', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('aeronet_1.5_V3', '202301', 'AOD870')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'AOD870', '0078-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD870', 'hylz-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD870', 'oper-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('202301', 'AOD870', 'operfc-21-0000-3')": {
+			"Observation Sources": ["aeronet_1.5_V3"]
+		},
+		"('airbase_meteofrance', '202211', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', '202211', '0078-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airbase_meteofrance', 'CO', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'CO', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'hylz-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airbase_meteofrance', 'CO', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'CO', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airbase_meteofrance', 'CO', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airbase_meteofrance', 'CO', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'NO2', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'NO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'NO2', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'NO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'NO2', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'NO2', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'O3', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'O3', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'O3', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'O3', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'O3', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'O3', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'PM10', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM10', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM10', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM10', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM10', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM10', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'PM2.5', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM2.5', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM2.5', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM2.5', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM2.5', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'PM2.5', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202211', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', 'SO2', '0078-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'SO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'SO2', 'hylz-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'SO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'SO2', 'oper-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', 'SO2', 'operfc-21-0000-3')": {
+			"Months": ["202211", "202212", "202301"]
+		},
+		"('202211', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', '202212', '0078-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202212', 'CO', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'hylz-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202212', 'CO', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202212', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202212', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'NO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'NO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'O3', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'O3', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'PM10', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM10', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'PM2.5', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM2.5', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202212', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202212', 'SO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'SO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202212', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'CO')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('airbase_meteofrance', '202301', '0078-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202301', 'CO', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'hylz-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202301', 'CO', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202301', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202301', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'NO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'NO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'NO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'O3')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'O3', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'O3', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'PM10')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'PM10', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM10', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'PM2.5')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'PM2.5', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM2.5', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airbase_meteofrance', '202301', 'SO2')": {
+			"Models": [
+				"hylz-21-0000-3",
+				"0078-21-0000-3",
+				"operfc-21-0000-3",
+				"oper-21-0000-3"
+			]
+		},
+		"('202301', 'SO2', '0078-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'SO2', 'hylz-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('202301', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airbase_meteofrance"]
+		},
+		"('airnow', '201908', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201908', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airnow', 'CO', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('airnow', 'CO', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'NO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'NO', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'NO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'NO', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'NO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'O3', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'O3', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'PM10', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'PM10', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'PM2.5', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'PM2.5', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201908', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', 'SO2', 'oper-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', 'SO2', 'operfc-21-0000-3')": {
+			"Months": ["201911", "201908", "201909", "201910"]
+		},
+		"('201908', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201909', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201909', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201909', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'NO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'NO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'NO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201909', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201909', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201909', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201910', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201910', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201910', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'NO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'NO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'NO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201910', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201910', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201910', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('airnow', '201911', 'oper-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201911', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'operfc-21-0000-3')": {
+			"Parameters": ["NO", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('201911', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'NO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'NO', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'NO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('airnow', '201911', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('201911', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('201911', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["airnow"]
+		},
+		"('china_aq_globvalsvr', '202207', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', '202207', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('china_aq_globvalsvr', 'CO', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('china_aq_globvalsvr', 'CO', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'NO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'NO2', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'NO2', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'O3', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'O3', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'PM10', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'PM10', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'PM2.5', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'PM2.5', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202207', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', 'SO2', 'oper-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', 'SO2', 'operfc-21-0000-3')": {
+			"Months": ["202209", "202207", "202208"]
+		},
+		"('202207', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', '202208', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202208', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202208', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'NO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202208', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202208', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202208', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'CO')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('china_aq_globvalsvr', '202209', 'oper-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202209', 'CO', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'operfc-21-0000-3')": {
+			"Parameters": ["NO2", "O3", "PM2.5", "SO2", "PM10", "CO"]
+		},
+		"('202209', 'CO', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'NO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'NO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'NO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'O3')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'O3', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'O3', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'PM10')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'PM10', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'PM10', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'PM2.5')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'PM2.5', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'PM2.5', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('china_aq_globvalsvr', '202209', 'SO2')": {
+			"Models": ["operfc-21-0000-3", "oper-21-0000-3"]
+		},
+		"('202209', 'SO2', 'oper-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('202209', 'SO2', 'operfc-21-0000-3')": {
+			"Observation Sources": ["china_aq_globvalsvr"]
+		},
+		"('aeronet_1.5_V3', '201806', 'AOD1640', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201806', 'AOD500', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201806', 'AOD675', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201806', 'AOD870', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201807', 'AOD1640', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201807', 'AOD500', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201807', 'AOD675', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201807', 'AOD870', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201808', 'AOD1640', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201808', 'AOD500', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201808', 'AOD675', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201808', 'AOD870', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201809', 'AOD1640', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201809', 'AOD500', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201809', 'AOD675', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '201809', 'AOD870', 'oper-117-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD1640', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD1640', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD1640', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD1640', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD500', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD500', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD500', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD500', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD675', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD675', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD675', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD675', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD870', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD870', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD870', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202210', 'AOD870', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD1640', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD1640', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD1640', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD1640', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD500', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD500', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD500', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD500', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD675', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD675', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD675', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD675', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD870', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD870', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD870', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202211', 'AOD870', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD1640', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD1640', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD1640', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD1640', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD500', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD500', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD500', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD500', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD675', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD675', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD675', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD675', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD870', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD870', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD870', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202212', 'AOD870', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD1640', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD1640', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD1640', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD1640', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD500', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD500', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD500', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD500', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD675', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD675', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD675', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD675', 'operfc-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD870', '0078-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD870', 'hylz-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD870', 'oper-21-0000-3')": {},
+		"('aeronet_1.5_V3', '202301', 'AOD870', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'CO', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'CO', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'CO', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'CO', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'NO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'NO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'NO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'NO2', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'O3', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'O3', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'O3', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'O3', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM10', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM10', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM10', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM10', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM2.5', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM2.5', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'SO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'SO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'SO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202211', 'SO2', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'CO', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'CO', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'CO', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'CO', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'NO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'NO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'NO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'NO2', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'O3', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'O3', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'O3', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'O3', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM10', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM10', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM10', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM10', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM2.5', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM2.5', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'SO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'SO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'SO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202212', 'SO2', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'CO', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'CO', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'CO', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'CO', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'NO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'NO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'NO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'NO2', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'O3', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'O3', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'O3', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'O3', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM10', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM10', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM10', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM10', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM2.5', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM2.5', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'SO2', '0078-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'SO2', 'hylz-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'SO2', 'oper-21-0000-3')": {},
+		"('airbase_meteofrance', '202301', 'SO2', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'CO', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'CO', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'NO', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'NO', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'O3', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'O3', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'PM10', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'PM10', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airnow', '201908', 'SO2', 'oper-21-0000-3')": {},
+		"('airnow', '201908', 'SO2', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'CO', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'CO', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'NO', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'NO', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'O3', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'O3', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'PM10', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'PM10', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airnow', '201909', 'SO2', 'oper-21-0000-3')": {},
+		"('airnow', '201909', 'SO2', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'CO', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'CO', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'NO', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'NO', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'O3', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'O3', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'PM10', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'PM10', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airnow', '201910', 'SO2', 'oper-21-0000-3')": {},
+		"('airnow', '201910', 'SO2', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'CO', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'CO', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'NO', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'NO', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'O3', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'O3', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'PM10', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'PM10', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'PM2.5', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('airnow', '201911', 'SO2', 'oper-21-0000-3')": {},
+		"('airnow', '201911', 'SO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'CO', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'CO', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'NO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'NO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'O3', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'O3', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'PM10', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'PM10', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'PM2.5', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'SO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202207', 'SO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'CO', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'CO', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'NO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'NO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'O3', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'O3', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'PM10', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'PM10', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'PM2.5', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'SO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202208', 'SO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'CO', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'CO', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'NO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'NO2', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'O3', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'O3', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'PM10', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'PM10', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'PM2.5', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'PM2.5', 'operfc-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'SO2', 'oper-21-0000-3')": {},
+		"('china_aq_globvalsvr', '202209', 'SO2', 'operfc-21-0000-3')": {}
+	},
+	"availability_info_encoding_dict": {
+		"airnow": 11,
+		"airbase_meteofrance": 12,
+		"china_aq_globvalsvr": 13,
+		"aeronet_1.5_V3": 14,
+		"201910": 21,
+		"202301": 22,
+		"202210": 23,
+		"201911": 24,
+		"201908": 25,
+		"201809": 26,
+		"202209": 27,
+		"201909": 28,
+		"201808": 29,
+		"201807": 210,
+		"202207": 211,
+		"202208": 212,
+		"202211": 213,
+		"202212": 214,
+		"201806": 215,
+		"CO": 31,
+		"NO": 32,
+		"NO2": 33,
+		"O3": 34,
+		"AOD500": 35,
+		"AOD1640": 36,
+		"PM2.5": 37,
+		"SO2": 38,
+		"AOD870": 39,
+		"AOD675": 310,
+		"PM10": 311,
+		"hylz-21-0000-3": 41,
+		"oper-117-0000-3": 42,
+		"0078-21-0000-3": 43,
+		"operfc-21-0000-3": 44,
+		"oper-21-0000-3": 45
+	},
+	"availability_int_decoding_dict": {
+		"11": "airnow",
+		"12": "airbase_meteofrance",
+		"13": "china_aq_globvalsvr",
+		"14": "aeronet_1.5_V3",
+		"21": "201910",
+		"22": "202301",
+		"23": "202210",
+		"24": "201911",
+		"25": "201908",
+		"26": "201809",
+		"27": "202209",
+		"28": "201909",
+		"29": "201808",
+		"210": "201807",
+		"211": "202207",
+		"212": "202208",
+		"213": "202211",
+		"214": "202212",
+		"215": "201806",
+		"31": "CO",
+		"32": "NO",
+		"33": "NO2",
+		"34": "O3",
+		"35": "AOD500",
+		"36": "AOD1640",
+		"37": "PM2.5",
+		"38": "SO2",
+		"39": "AOD870",
+		"310": "AOD675",
+		"311": "PM10",
+		"41": "hylz-21-0000-3",
+		"42": "oper-117-0000-3",
+		"43": "0078-21-0000-3",
+		"44": "operfc-21-0000-3",
+		"45": "oper-21-0000-3"
+	}
+}

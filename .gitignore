@@ -1,0 +1,7 @@
+.venv
+__pycache__/
+.code-workspace
+backend/API/temp.py
+backend/API/temp.txt
+.pytest_cache
+.vscode

@@ -1,0 +1,11 @@
+xarray[io]
+xarray[accel]
+xarray[parallel]
+fastapi[standard]
+httpx
+jsonref
+numpy
+pandas
+pydantic
+ujson
+# pytest can also be used to automatically use the tests in test_verisualiser_api.py 
